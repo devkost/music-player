@@ -1,0 +1,6 @@
+[MAIN]
+extension-pkg-allow-list=PySide6,pygame
+
+[TYPECHECK]
+# Сигналы PySide6 (Signal.connect) pylint не видит статически
+generated-members=connect

@@ -1,0 +1,18 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Байткод Python
+__pycache__/
+*.py[cod]
+
+# Кэши инструментов
+.pytest_cache/
+.pylint.d/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
